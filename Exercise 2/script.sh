@@ -24,7 +24,7 @@ while getopts ":dn:" opt; do
   esac
 done
 
-# Remove the parsed options
+
 shift $((OPTIND - 1))
 
 # Check if the required argument (directory) is provided

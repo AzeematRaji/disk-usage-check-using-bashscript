@@ -13,7 +13,7 @@ destination_directory=$2
 timestamp=$(date +"%Y%m%d%H%M%S")
 backup_filename="backup_$timestamp.tar.gz"
 
-# Check if the source directory exists
+
 if [ ! -d "$source_directory" ]; then
   echo "Error: Source directory '$source_directory' not found." >&2
   exit 1
